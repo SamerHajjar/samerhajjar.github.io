@@ -5,10 +5,16 @@
 
 .info-box {
     background-color: lightgrey;
+    padding-left: 0;
 }
 
 #info {
     margin-top: 50px;
+    padding-left: 50px;
+}
+
+#image {
+    padding-left: 0;
 }
 
 .info {
@@ -23,10 +29,12 @@ hr {
 #social {
     text-align: center;
     background-color: cadetblue;
+    padding-top: 5px;
+    height: 40px;
 }
 
 div#social img {
-    width: 7%;
+    height: 20px;
 }
 
 #summary {
