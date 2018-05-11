@@ -1,3 +1,49 @@
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1199.98px) {
+    #image {
+        text-align: left;
+        float: left;
+    }
+    #info {
+        margin-top: 50px;
+        text-align: left;
+        float: right;
+    }
+}
+@media (max-width: 991.98px) {
+    
+}
+@media (max-width: 767.98px) {
+    #image {
+        text-align: center;
+    }
+}
+@media (max-width: 575.98px) {
+    #image {
+        text-align: center;
+    }
+
+    #info {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    #image {
+        text-align: left;
+        float: left;
+    }
+    #info {
+        margin-top: 50px;
+        text-align: left;
+        float: right;
+    }    
+}
+
 .navbar-brand {
     color: cadetblue;
     font-size: 40px;
@@ -6,15 +52,14 @@
 .info-box {
     background-color: lightgrey;
     padding-left: 0;
+    padding-right: 0;
 }
 
-#info {
-    margin-top: 50px;
-    padding-left: 50px;
-}
+
 
 #image {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .info {
