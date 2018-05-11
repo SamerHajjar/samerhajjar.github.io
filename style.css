@@ -19,6 +19,13 @@ html, body {
 @media (max-width: 767.98px) {
     #image {
         text-align: center;
+        float: none;
+    }
+
+    #info {
+        margin-top: 50px;
+        text-align: center;
+        float: none;
     }
 }
 @media (max-width: 575.98px) {
@@ -42,6 +49,11 @@ html, body {
         text-align: left;
         float: right;
     }    
+}
+@media (min-width: 576px){
+    .offset-sm-2 {
+        margin-left: 0;
+    }   
 }
 
 .navbar-brand {
