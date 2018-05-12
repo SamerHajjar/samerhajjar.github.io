@@ -11,6 +11,9 @@ html, body {
         margin-top: 50px;
         text-align: left;
         float: right;
+    }    
+    .description {
+        padding-bottom: 30px; 
     }
 }
 @media (max-width: 991.98px) {
@@ -48,12 +51,28 @@ html, body {
         margin-top: 50px;
         text-align: left;
         float: right;
-    }    
-}
-@media (min-width: 576px){
+    }
     .offset-sm-2 {
         margin-left: 0;
-    }   
+    }
+    .title {
+        text-align:right;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        border-right: 1px solid lightgrey;
+    }    
+    .description {
+        padding-left: 20px;
+        padding-bottom: 30px; 
+    }
+}
+
+span {
+    font-family: 'Courier-new', Courier, monospace;    
+}
+
+hr {
+    margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -68,7 +87,6 @@ html, body {
 }
 
 
-
 #image {
     padding-left: 0;
     padding-right: 0;
@@ -76,11 +94,6 @@ html, body {
 
 .info {
     background-color: cadetblue;
-}
-
-hr {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 #social {
@@ -117,4 +130,15 @@ a:hover {
 .icon img:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);    
+}
+
+#education, #experience {
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    text-align: center; 
+    padding: 20px 0; "
+}
+
+#experience + div > div, #education + div > div {
+    padding: 20px 0;
 }
