@@ -11,9 +11,30 @@ html, body {
         margin-top: 50px;
         text-align: left;
         float: right;
+    }
+    .offset-sm-2 {
+        margin-left: 0;
+    }   
+    .title {
+        text-align:right;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        border-right: 1px solid lightgrey;
     }    
     .description {
+        padding-left: 20px;
         padding-bottom: 30px; 
+    }
+    .software-skills {
+        background-color: cadetblue; 
+        border-right: 1px dashed white;
+        padding-top: 10px;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .other-skills {
+        background-color: cadetblue;
+        border-right: 1px solid white;
     }
 }
 @media (max-width: 991.98px) {
@@ -24,24 +45,43 @@ html, body {
         text-align: center;
         float: none;
     }
-
     #info {
         margin-top: 50px;
         text-align: center;
         float: none;
+    }
+    .title {
+        text-align: left;
+        padding-right: 20px;
+        padding-bottom: 0;
+        border-right: none;
+    }    
+    .description {
+        padding-left: 15px;
+        padding-bottom: 30px; 
+    }
+    .software-skills {
+        background-color: cadetblue; 
+        border-right: none;
+        padding-top: 10px;
+        color: white;
+        border-bottom: 1px solid white;
+        padding-left: 0;
+    }
+    .other-skills {
+        background-color: cadetblue;
+        border-right: none;
     }
 }
 @media (max-width: 575.98px) {
     #image {
         text-align: center;
     }
-
     #info {
         margin-top: 50px;
         text-align: center;
     }
 }
-
 @media (min-width: 1200px) {
     #image {
         text-align: left;
@@ -65,6 +105,17 @@ html, body {
         padding-left: 20px;
         padding-bottom: 30px; 
     }
+    .software-skills {
+        background-color: cadetblue; 
+        border-right: 1px dashed white;
+        padding-top: 10px;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .other-skills {
+        background-color: cadetblue;
+        border-right: 1px solid white;
+    }
 }
 
 span {
@@ -75,17 +126,11 @@ hr {
     margin-bottom: 0;
 }
 
-.navbar-brand {
-    color: cadetblue;
-    font-size: 40px;
-}
-
 .info-box {
     background-color: lightgrey;
     padding-left: 0;
     padding-right: 0;
 }
-
 
 #image {
     padding-left: 0;
@@ -142,3 +187,30 @@ a:hover {
 #experience + div > div, #education + div > div {
     padding: 20px 0;
 }
+#skills {
+    color: white;
+    text-align: center; 
+    padding: 30px 0; 
+    background-color: cadetblue;
+    border-bottom: 1px solid white;
+}
+#software-title {
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+.skills-title {
+    text-align: center; 
+    color: white;
+    padding: 10px 0; 
+    background-color: cadetblue; 
+    border-bottom: 1px dashed white;
+}
+.other-skills {
+    padding: 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
