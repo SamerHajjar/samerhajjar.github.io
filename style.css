@@ -31,6 +31,7 @@ html, body {
         padding-top: 10px;
         color: white;
         border-bottom: 1px solid white;
+        padding-left: 0;
     }
     .other-skills {
         background-color: cadetblue;
@@ -46,7 +47,7 @@ html, body {
         float: none;
     }
     #info {
-        margin-top: 50px;
+        margin-top: 20px;
         text-align: center;
         float: none;
     }
@@ -60,26 +61,35 @@ html, body {
         padding-left: 15px;
         padding-bottom: 30px; 
     }
-    .software-skills {
+    .software-skills:first-child {
         background-color: cadetblue; 
         border-right: none;
         padding-top: 10px;
         color: white;
+        border-bottom: none;
+        padding-left: 0;
+        margin-bottom: -1em;
+    }
+    .software-skills:last-child {
+        background-color: cadetblue; 
+        border-right: none;
+        padding-top: 0;
+        color: white;
         border-bottom: 1px solid white;
         padding-left: 0;
     }
+    .software-skills:nth-child(2) {
+        background-color: cadetblue; 
+        border-right: none;
+        padding-top: 0;
+        color: white;
+        border-bottom: none;
+        padding-left: 0;
+        margin-bottom: -1em;
+    } 
     .other-skills {
         background-color: cadetblue;
         border-right: none;
-    }
-}
-@media (max-width: 575.98px) {
-    #image {
-        text-align: center;
-    }
-    #info {
-        margin-top: 50px;
-        text-align: center;
     }
 }
 @media (min-width: 1200px) {
@@ -111,6 +121,7 @@ html, body {
         padding-top: 10px;
         color: white;
         border-bottom: 1px solid white;
+        padding-left: 0;
     }
     .other-skills {
         background-color: cadetblue;
@@ -177,7 +188,7 @@ a:hover {
     transform: rotate(360deg);    
 }
 
-#education, #experience {
+#education, #experience, #certs {
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
     text-align: center; 
@@ -199,7 +210,7 @@ a:hover {
     color: white;
     background-color: cadetblue;
     padding: 10px 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px dashed white;
 }
 .skills-title {
     text-align: center; 
@@ -212,5 +223,9 @@ a:hover {
     padding: 0;
     border-bottom: 1px solid white;
     color: white;
+}
+#certifications {
+    margin-left: 20px;
+    padding: 30px 0 20px 20px;
 }
 
