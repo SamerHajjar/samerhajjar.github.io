@@ -188,7 +188,7 @@ a:hover {
     transform: rotate(360deg);    
 }
 
-#education, #experience, #certs {
+#education, #experience, #certifications {
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
     text-align: center; 
