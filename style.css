@@ -194,7 +194,15 @@ a:hover {
     text-align: center; 
     padding: 20px 0; "
 }
-
+#activities {
+    border-bottom: 1px solid lightgrey;
+    text-align: center; 
+    padding: 20px 0; 
+}
+#activities + div > ul {
+    padding-right: 40px;
+    text-align: justify;
+}
 #experience + div > div, #education + div > div {
     padding: 20px 0;
 }
