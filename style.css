@@ -113,6 +113,10 @@ html, body {
 
 @media only screen and (max-width: 530px) {
     .summary h1 {
+        text-align: justify;
+        padding: 20px 30px;
+        text-align: center;
+        background-color: lightgrey;
         font-size: 5vw;
     }
 }
