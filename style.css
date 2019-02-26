@@ -49,13 +49,33 @@ html, body {
 @media only screen and (max-width: 600px) {
     .info-box {
         display: block;
+        width: 80%;
     }
     .image {
         margin: 0 auto;
     }
     .information {
         margin: 0 auto;
+        padding-bottom: 10px;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    .info-box {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .info-box {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .info-box {
+        width: 78%;
     }
 }
 
