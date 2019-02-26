@@ -1,133 +1,78 @@
 html, body {
     overflow-x: hidden;
+    margin: 0;
 }
 
-@media (max-width: 1199.98px) {
-    #image {
-        text-align: left;
-        float: left;
-    }
-    #info {
-        margin-top: 50px;
-        text-align: left;
-        float: right;
-    }
-    .offset-sm-2 {
-        margin-left: 0;
-    }   
-    .title {
-        text-align:right;
-        padding-right: 20px;
-        padding-bottom: 30px;
-        border-right: 1px solid lightgrey;
-    }    
-    .description {
-        padding-left: 20px;
-        padding-bottom: 30px; 
-    }
-    .software-skills {
-        background-color: cadetblue; 
-        border-right: 1px dashed white;
-        padding-top: 10px;
-        color: white;
-        border-bottom: 1px solid white;
-        padding-left: 0;
-    }
-    .other-skills {
-        background-color: cadetblue;
-        border-right: 1px solid white;
-    }
+/* NAV */
+
+.navbar {
+    display: flex;
 }
-@media (max-width: 991.98px) {
-    
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
 }
-@media (max-width: 767.98px) {
-    #image {
+
+.logo {
+    padding: 0;
+    font-size: 7vh;
+    white-space: nowrap;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+/* INFO */
+
+.info {
+    background-color: cadetblue;
+}
+
+.info-box {
+    display: flex;
+    background-color: lightgrey;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image {
+    width: 230px;
+}
+
+.information {
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-box {
+        display: block;
+    }
+    .image {
+        margin: 0 auto;
+    }
+    .information {
+        margin: 0 auto;
         text-align: center;
-        float: none;
-    }
-    #info {
-        margin-top: 20px;
-        text-align: center;
-        float: none;
-    }
-    .title {
-        text-align: left;
-        padding-right: 20px;
-        padding-bottom: 0;
-        border-right: none;
-    }    
-    .description {
-        padding-left: 15px;
-        padding-bottom: 30px; 
-    }
-    .software-skills:first-child {
-        background-color: cadetblue; 
-        border-right: none;
-        padding-top: 10px;
-        color: white;
-        border-bottom: none;
-        padding-left: 0;
-        margin-bottom: -1em;
-    }
-    .software-skills:last-child {
-        background-color: cadetblue; 
-        border-right: none;
-        padding-top: 0;
-        color: white;
-        border-bottom: 1px solid white;
-        padding-left: 0;
-    }
-    .software-skills:nth-child(2) {
-        background-color: cadetblue; 
-        border-right: none;
-        padding-top: 0;
-        color: white;
-        border-bottom: none;
-        padding-left: 0;
-        margin-bottom: -1em;
-    } 
-    .other-skills {
-        background-color: cadetblue;
-        border-right: none;
     }
 }
-@media (min-width: 1200px) {
-    #image {
-        text-align: left;
-        float: left;
-    }
-    #info {
-        margin-top: 50px;
-        text-align: left;
-        float: right;
-    }
-    .offset-sm-2 {
-        margin-left: 0;
-    }
-    .title {
-        text-align:right;
-        padding-right: 20px;
-        padding-bottom: 30px;
-        border-right: 1px solid lightgrey;
-    }    
-    .description {
-        padding-left: 20px;
-        padding-bottom: 30px; 
-    }
-    .software-skills {
-        background-color: cadetblue; 
-        border-right: 1px dashed white;
-        padding-top: 10px;
-        color: white;
-        border-bottom: 1px solid white;
-        padding-left: 0;
-    }
-    .other-skills {
-        background-color: cadetblue;
-        border-right: 1px solid white;
-    }
+
+
+.software-skills {
+    background-color: cadetblue; 
+    border-right: 1px dashed white;
+    padding-top: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-left: 0;
 }
+.other-skills {
+    background-color: cadetblue;
+    border-right: 1px solid white;
+}
+
 
 span {
     font-family: 'Courier-new', Courier, monospace;    
@@ -135,21 +80,6 @@ span {
 
 hr {
     margin-bottom: 0;
-}
-
-.info-box {
-    background-color: lightgrey;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#image {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.info {
-    background-color: cadetblue;
 }
 
 #social {
@@ -184,8 +114,8 @@ a:hover {
 }
 
 .icon img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);    
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);    
 }
 
 #education, #experience, #certifications {

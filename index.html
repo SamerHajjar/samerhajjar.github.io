@@ -7,41 +7,35 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Samer Hajjar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#certifications">Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#activities">Activities</a>
-                </li>
-                <!--<li class="nav-item">-->
-                   <!-- <a class="nav-link" href="#">Contact</a>-->
-                <!--</li>-->
-            </ul>
-        </div>
+    <nav class="navbar">
+        <a class="logo" href="#">Samer Hajjar</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#activities">Activities</a>
+            </li>
+            <li class="nav-item push">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
     </nav>
-    <div class="container-fluid info"> <!-- Info -->
-        <div class="row justify-content-center">
-            <div class="info-box col-12 col-sm-8 col-md-8 col-lg-8 col-xl-6">
-                <div id="image" class="info-box col-12 col-sm-8 offset-sm-2 col-md-6 col-lg-4 col-xl-4">
-                    <img src="https://raw.githubusercontent.com/SamerHajjar/samerhajjar.github.io/master/image.JPG" alt="Image of Samer Hajjar" style="width:230px;"/>
+    <div class="container info"> <!-- Info -->
+            <div class="info-box">
+                <div class="image">
+                    <img src="image.JPG" alt="Image of Samer Hajjar" style="width:230px;"/>
                 </div>
-                <div id="info" class="info-box col-12 col-sm-8 offset-sm-2 col-md-6 col-lg-7 col-xl-7">
+                <div class="information">
                     <h3>Samer Hajjar</h3>
                     <h4>Mechatronics Engineer</h4>
                     <p>
@@ -62,8 +56,7 @@
                         <br> October 9th, 1996
                     </p>
                 </div>
-            </div>        
-        </div>
+            </div>
     </div>
     <div class="container-fluid"> <!-- Summary & Social -->
         <div id="summary" class="row justify-content-center">
@@ -93,12 +86,12 @@
     <div class="container-fluid"> <!-- Experience -->
         <div class="row">
             <div class="col-md-6 title">
-                <b>May 2017 - December 2017</b>
+                <b>Serptember 2018 - Present</b>
                 </br>
-                <span>Field Officer</span>
+                <span>Teacher at Geek Express - Zahle</span>
             </div>
             <div class="col-md-6 description">
-                ARCENCIEL ORGANIZATION</br> Worked as a field officer in a waste management project for refugees in Beqaa region, in collaboration with Intersos, SAWA and UNHCR, where I was in charge of focus group discussions and awareness and training sessions.
+                GEEK EXPRESS - ZAHLE</br> Teaching kids and teenagers to develop android applications along with coding mambo drones and creating virtual reality scenarios and apps.
             </div>
             <div class="col-md-6 title">
                 <b>March 2018 - April 2018</b>
@@ -107,6 +100,14 @@
             </div>
             <div class="col-md-6 description">
                 FINIKIA ONLINE ECOMMERCE COMPANY</br> Worked as a webmaster manager where I was in charge of designing the company’s website theme and look and add products to both the website and the social media pages.
+            </div>
+            <div class="col-md-6 title">
+                <b>May 2017 - December 2017</b>
+                </br>
+                <span>Field Officer</span>
+            </div>
+            <div class="col-md-6 description">
+                ARCENCIEL ORGANIZATION</br> Worked as a field officer in a waste management project for refugees in Beqaa region, in collaboration with Intersos, SAWA and UNHCR, where I was in charge of focus group discussions and awareness and training sessions.
             </div>
         </div>
     </div>
@@ -257,11 +258,5 @@
     <hr>
     <p style="margin: 20px auto 20px 5%; font-family:'Courier New', Courier, monospace;">&copy 2018 By Samer Hajjar</p>
 </footer>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
