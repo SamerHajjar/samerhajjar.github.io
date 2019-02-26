@@ -1,6 +1,7 @@
 html, body {
     overflow-x: hidden;
     margin: 0;
+    font-family: 'Courier-new', Courier, monospace; 
 }
 
 /* NAV */
@@ -79,6 +80,42 @@ html, body {
     }
 }
 
+.social {
+    text-align: center;
+    background-color: cadetblue;
+    height: 40px;
+}
+
+.icon {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);    
+}
+
+/* SUMMARY */
+
+.summary {
+    text-align: justify;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+@media only screen and (max-width: 530px) {
+    .summary h1 {
+        font-size: 5vw;
+    }
+}
 
 .software-skills {
     background-color: cadetblue; 
@@ -93,29 +130,13 @@ html, body {
     border-right: 1px solid white;
 }
 
-
-span {
-    font-family: 'Courier-new', Courier, monospace;    
-}
-
 hr {
     margin-bottom: 0;
 }
 
-#social {
-    text-align: center;
-    background-color: cadetblue;
-    padding-top: 5px;
-    height: 40px;
-}
 
-div#social img {
-    height: 20px;
-}
 
-#summary {
-    background-color: lightgray;
-}
+
 
 a {
     text-decoration: none;
@@ -127,16 +148,7 @@ a:hover {
     color: cadetblue;
 }
 
-.icon img {
-    display: inline-block;
-    -webkit-transition: transform 2s;
-    transition: transform 2s;
-}
 
-.icon img:hover {
-    -webkit-transform: rotate(-7deg);
-    transform: rotate(-7deg);    
-}
 
 #education, #experience, #certifications {
     border-bottom: 1px solid lightgrey;
