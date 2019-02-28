@@ -121,6 +121,52 @@ html, body {
     }
 }
 
+/* EXPERIENCE */
+
+#experience {
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    text-align: center;
+}
+
+.exp-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title {
+    margin: 0 30px;
+    padding: 20px 0;
+    text-align: right;
+
+}
+
+.description {
+    margin-right: 30px;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 720px) {
+    .exp-container {
+        grid-template-columns: 1fr;
+    }
+    .title {
+        margin-left: 10px;
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    .description {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+}
+
+/* EDUCATION */
+
+
+
 .software-skills {
     background-color: cadetblue; 
     border-right: 1px dashed white;
@@ -154,11 +200,11 @@ a:hover {
 
 
 
-#education, #experience, #certifications {
+#education, #certifications {
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
     text-align: center; 
-    padding: 20px 0;
+    padding: 10px 0;
 }
 #activities {
     border-bottom: 1px solid lightgrey;
@@ -169,7 +215,7 @@ a:hover {
     padding-right: 40px;
     text-align: justify;
 }
-#experience + div > div, #education + div > div {
+#education + div > div {
     padding: 20px 0;
 }
 #skills {
