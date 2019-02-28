@@ -172,7 +172,12 @@ html, body {
     }
 }
 
+/* SKILLS */
 
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
 
 .software-skills {
     background-color: cadetblue; 
@@ -187,29 +192,7 @@ html, body {
     border-right: 1px solid white;
 }
 
-hr {
-    margin-bottom: 0;
-}
 
-a {
-    text-decoration: none;
-    color: grey;
-}
-
-a:hover {
-    text-decoration: none;
-    color: cadetblue;
-}
-
-#activities {
-    border-bottom: 1px solid lightgrey;
-    text-align: center; 
-    padding: 20px 0; 
-}
-#activities + div > ul {
-    padding-right: 40px;
-    text-align: justify;
-}
 #skills {
     color: white;
     text-align: center; 
@@ -237,3 +220,23 @@ a:hover {
     color: white;
 }
 
+
+#activities {
+    border-bottom: 1px solid lightgrey;
+    text-align: center; 
+    padding: 20px 0; 
+}
+#activities + div > ul {
+    padding-right: 40px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cadetblue;
+}
