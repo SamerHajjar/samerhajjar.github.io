@@ -121,24 +121,28 @@ html, body {
     }
 }
 
-/* EXPERIENCE */
+/* EXPERIENCE, EDUCATION, CERTIFICATIONS */
 
-#experience {
+#experience, #education, #certifications {
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
     text-align: center;
 }
 
-.exp-container {
+.exp-container, .edu-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.certs-container {
+    margin-left: 20px;
+    padding: 30px 0 20px 20px;
 }
 
 .title {
     margin: 0 30px;
     padding: 20px 0;
     text-align: right;
-
 }
 
 .description {
@@ -148,7 +152,7 @@ html, body {
 }
 
 @media only screen and (max-width: 720px) {
-    .exp-container {
+    .exp-container, .edu-container {
         grid-template-columns: 1fr;
     }
     .title {
@@ -162,8 +166,6 @@ html, body {
         padding-top: 5px;
     }
 }
-
-/* EDUCATION */
 
 
 
@@ -184,10 +186,6 @@ hr {
     margin-bottom: 0;
 }
 
-
-
-
-
 a {
     text-decoration: none;
     color: grey;
@@ -198,14 +196,6 @@ a:hover {
     color: cadetblue;
 }
 
-
-
-#education, #certifications {
-    border-bottom: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
-    text-align: center; 
-    padding: 10px 0;
-}
 #activities {
     border-bottom: 1px solid lightgrey;
     text-align: center; 
@@ -214,9 +204,6 @@ a:hover {
 #activities + div > ul {
     padding-right: 40px;
     text-align: justify;
-}
-#education + div > div {
-    padding: 20px 0;
 }
 #skills {
     color: white;
@@ -243,9 +230,5 @@ a:hover {
     padding: 0;
     border-bottom: 1px solid white;
     color: white;
-}
-#certs {
-    margin-left: 20px;
-    padding: 30px 0 20px 20px;
 }
 

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samer Hajjar</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -113,67 +116,78 @@
         <h1>Education</h1>
     </div> 
     <div class="edu-container">
-        <div class="row" style="padding-top: 20px;">
-                <div class="col-md-6 title">
+                <div class="title">
                     <b>2017 - Present</b>
                     </br>
                     <span>Master's Degree</span>
                 </div>
-                <div class="col-md-6 description">
-                    AMERICAN UNIVERSITY OF SCIENCE AND TECHNOLOGY</br> Mechatronics Engineering
+                <div class="description">
+                    <i>AMERICAN UNIVERSITY OF SCIENCE AND TECHNOLOGY</i></br> Mechatronics Engineering
                 </div>
-                <div class="col-md-6 title">
+                <div class="title">
                     <b>2014 - 2017</b>
                     </br>
                     <span>Bachelor's Degree</span>
                 </div>
-                <div class="col-md-6 description">
-                    UNIVERSITY OF BALAMAND</br> Mechatronics Engineering
+                <div class="description">
+                    <i>UNIVERSITY OF BALAMAND</i></br> Mechatronics Engineering
                 </div>
-                <div class="col-md-6 title">
+                <div class="title">
                     <b>June 2016 - July 2016</b>
                     </br>
                     <span>Internship</span>
                 </div>
-                <div class="col-md-6 description">
-                    UNIVERSITE DE VERSAILLES SAINT-QUENTIN-EN-YVELINES</br> Microcontroller controlled systems
+                <div class="description">
+                    <i>UNIVERSITE DE VERSAILLES SAINT-QUENTIN-EN-YVELINES</i></br> Microcontroller controlled systems
                 </div>
-        </div>
+        
     </div>
+
+    <!-- Certifications -->
     <div id="certifications">
         <h1>Certifications</h1>
+        <a class="info-btn"><img src="info.png" alt="info"/></a>
+        <div class="popup">
+            <span class="helper"></span>
+            <div>
+                <div class="popupCloseButton">X</div>
+                <p>Click on a certificate to view and download it<p>
+            </div>
+        </div>
     </div>
-    <div> <!-- Certifications -->
-        <ul id="certs">
-            <li>Microsoft Certificate in IT Support: Network Essentials &nbsp &nbsp
-                <a href="Microsoft CLD260x Certificate _ edX.pdf" download="Samer Hajjar Microsoft CLD260x Certificate">
-                    <img src="downloadarrow.png" style="width: 1.2em;" onmouseover="this.src='hoverarrow.png'" onmouseout="this.src='downloadarrow.png'">
+    <div class="certs-container"> 
+        <ul>
+            <li>
+                <a href="Microsoft CLD260x Certificate _ edX.pdf" target="_blank" download="Samer Hajjar Microsoft CLD260x Certificate">
+                    Microsoft Certificate in IT Support: Network Essentials
                 </a>
             </li>
-            <li>W3C Certificate in HTML5 and CSS Fundamentals &nbsp &nbsp
-                <a href="W3Cx HTML5.0x Certificate _ edX.pdf" download="Samer Hajjar W3C HTML5.0 Certificate">
-                    <img src="downloadarrow.png" style="width: 1.2em;" onmouseover="this.src='hoverarrow.png'" onmouseout="this.src='downloadarrow.png'">
+            <li>
+                <a href="W3Cx HTML5.0x Certificate _ edX.pdf" target="_blank" download="Samer Hajjar W3C HTML5.0 Certificate">
+                    W3C Certificate in HTML5 and CSS Fundamentals
                 </a>
             </li>
-            <li>Cisco Certificate in CCNA Routing and Switching: Intoduction to Networks &nbsp &nbsp
-                <a href="Samer Hajjar Cisco1 Certificate.pdf" download>
-                    <img src="downloadarrow.png" style="width: 1.2em;" onmouseover="this.src='hoverarrow.png'" onmouseout="this.src='downloadarrow.png'">
+            <li>
+                <a href="Samer Hajjar Cisco1 Certificate.pdf" target="_blank" download="Samer Hajjar Cisco1 Certificate">
+                    Cisco Certificate in CCNA Routing and Switching: Intoduction to Networks
                 </a>
             </li>
-            <li>Cisco Certificate in CCNA Routing and Switching: Routing and Switching Essentials &nbsp &nbsp
-                <a href="Samer Hajjar Cisco2 Certificate.pdf" download>
-                    <img src="downloadarrow.png" style="width: 1.2em;" onmouseover="this.src='hoverarrow.png'" onmouseout="this.src='downloadarrow.png'">
+            <li>
+                <a href="Samer Hajjar Cisco2 Certificate.pdf" target="_blank" download="Samer Hajjar Cisco2 Certificate">
+                    Cisco Certificate in CCNA Routing and Switching: Routing and Switching Essentials
                 </a>
             </li>
         </ul>
     </div>
+
+    <!-- Skills -->
     <div id="skills">
         <h1>Skills</h1>
     </div>
     <div id="software-title">
         <h5>Software Skills</h5>
     </div>
-    <div class="container-fluid"> <!-- Skills -->
+    <div class="container-fluid"> 
         <div class="row">
             <div class="software-skills col-12 col-md-4">
                 <ul>
