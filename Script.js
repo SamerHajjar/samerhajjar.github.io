@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $(".info-btn").on("click", function(){
+    $(".info-btn").on('click', function(){
        $('.popup').show();
     });
-    $('.popup').on("click", function(){
+    $('.popup').on('click', function(){
         $('.popup').hide();
     });
-    $('.popupCloseButton').on("click", function(){
+    $('.popupCloseButton').on('click', function(){
         $('.popup').hide();
     });
 });
