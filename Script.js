@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $(".info-btn").on('click touchstart', function(){
+    $(".info-btn").on('touch click', function(){
        $('.popup').show();
     });
-    $('.popup').on('click touchstart', function(){
+    $('.popup').on('touch click', function(){
         $('.popup').hide();
     });
-    $('.popupCloseButton').on('click touchstart', function(){
+    $('.popupCloseButton').on('touch click', function(){
         $('.popup').hide();
     });
 });
