@@ -11,4 +11,7 @@ $(document).ready(function () {
     $('.menu-btn').on('click', function(){
     	$('.hidden-nav').toggleClass('hide');
     });
+    $('.hidden-item').on('click', function(){
+    	$('.hidden-nav').toggleClass('hide');
+    });
 });
