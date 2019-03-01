@@ -1,7 +1,8 @@
 html, body {
     overflow-x: hidden;
     margin: 0;
-    font-family: 'Courier-new', Courier, monospace; 
+    font-family: 'Courier-new', Courier, monospace;
+    scroll-behavior: smooth; 
 }
 
 /* NAV */

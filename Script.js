@@ -15,3 +15,4 @@ $(document).ready(function () {
     	$('.hidden-nav').toggleClass('hide');
     });
 });
+
