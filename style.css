@@ -135,7 +135,7 @@ html, body {
 }
 
 .certs-container {
-    padding: 30px 0 20px 20px;
+    padding: 10px 0 20px 20px;
 }
 
 .title {
@@ -176,57 +176,52 @@ html, body {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
-.software-skills {
-    background-color: cadetblue; 
-    border-right: 1px dashed white;
-    padding-top: 10px;
-    color: white;
-    border-bottom: 1px solid white;
-    padding-left: 0;
-}
-.other-skills {
-    background-color: cadetblue;
-    border-right: 1px solid white;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
 #skills {
     color: white;
-    text-align: center; 
-    padding: 30px 0; 
+    text-align: center;
     background-color: cadetblue;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
-#software-title {
-    text-align: center;
-    color: white;
-    background-color: cadetblue;
-    padding: 10px 0;
-    border-bottom: 1px dashed white;
-}
+
 .skills-title {
     text-align: center; 
     color: white;
     padding: 10px 0; 
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: cadetblue; 
     border-bottom: 1px dashed white;
 }
-.other-skills {
-    padding: 0;
-    border-bottom: 1px solid white;
+
+.software-skills, .other-skills {
+    background-color: cadetblue; 
+    border-right: 1px dashed white;
     color: white;
+    border-bottom: 1px solid white;
+    padding-left: 0;
 }
 
+@media only screen and (max-width: 840px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    .software-skills, .other-skills { 
+        border-right: none;
+    }
+}
+
+/* ACTIVITIES */
 
 #activities {
     border-bottom: 1px solid lightgrey;
-    text-align: center; 
-    padding: 20px 0; 
+    text-align: center;
 }
-#activities + div > ul {
+.activity-list {
     padding-right: 40px;
     text-align: justify;
 }
