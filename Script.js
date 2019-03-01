@@ -8,4 +8,7 @@ $(document).ready(function () {
     $('.popupCloseButton').on('click', function(){
         $('.popup').hide();
     });
+    $('.menu-btn').on('click', function(){
+    	$('.hidden-nav').toggleClass('hide');
+    });
 });
