@@ -19,7 +19,7 @@ html, body {
 .nav-item {
     padding-left: 20px;
 }
-.menu-icon {
+.menu-btn {
     display: none;
 }
 .navbar-nav {
@@ -45,9 +45,8 @@ html, body {
     .navbar-nav {
         display: none;
     }
-    .menu-icon {
+    .menu-btn {
         display: inline;
-        height: 30px;
         padding: 20px;
     }
 }
