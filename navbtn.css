@@ -3,6 +3,10 @@
   padding-bottom: 10px;
 }
 
+.nav:hover, .nav-toggle:hover {
+  cursor: pointer;
+}
+
 .nav-toggle {
   position: relative;
   padding: 10px;
