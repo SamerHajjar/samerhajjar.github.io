@@ -5,6 +5,10 @@ html, body {
     scroll-behavior: smooth; 
 }
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 /* NAV */
 
 .navbar {
@@ -73,12 +77,33 @@ html, body {
     margin: 0 auto;
 }
 
+.fadein {
+    opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1; 
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
 .image {
     width: 230px;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
 }
 
 .information {
     margin-left: 30px;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
 }
 
 @media only screen and (max-width: 620px) {
@@ -239,7 +264,7 @@ html, body {
 
 .software-skills, .other-skills {
     background-color: cadetblue; 
-    border-right: 1px dashed white;
+    border-left: 1px dashed white;
     color: white;
     border-bottom: 1px solid white;
     padding-left: 0;
@@ -250,7 +275,7 @@ html, body {
         grid-template-columns: 1fr;
     }
     .software-skills, .other-skills { 
-        border-right: none;
+        border-left: none;
     }
 }
 
